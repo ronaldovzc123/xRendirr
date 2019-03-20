@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Desembolsar"
+        android:tooltipText="Aprobar"
+        android:title="Desembolsar"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/icon_cancel"
+        android:icon="@drawable/ic_cancel"
+        android:title="Edit Done"
+        app:showAsAction="always"/>
+</menu>

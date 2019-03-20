@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/L0"
+    tools:context=".xRendir">
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Nombre"
+
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+
+        android:text="Documentos" />
+
+
+    <ListView
+        android:id="@+id/Lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+
+
+    <EditText
+        android:id="@+id/DniAroLiqu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+
+    <EditText
+        android:id="@+id/fecHas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/fecDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/centroCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/Descrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/dni2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/dnApr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/DniAprodese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/estadoSol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/fechaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/fechaAproa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/fechaHORA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/fechaSOLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/impr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/mot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/nomb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/uidd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+
+
+</LinearLayout>

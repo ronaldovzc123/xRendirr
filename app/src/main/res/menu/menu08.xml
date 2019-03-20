@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Aprobar"
+        android:tooltipText="Aprobar"
+        android:title="Aprobar"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/Rechazar"
+        android:tooltipText="Aprobar"
+        android:title="Rechazar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/icon_back"
+        android:icon="@drawable/ic_back"
+        android:title="Edit Done"
+        app:showAsAction="always" />
+
+</menu>

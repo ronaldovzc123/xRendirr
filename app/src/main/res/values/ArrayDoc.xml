@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Tipo_Documento">
+        <item>Tipo Documento</item>
+        <item>Boleta</item>
+        <item>Factura</item>
+        <item>Recibo Honorarios</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="Categoria">
+        <item>Tipo Categoria</item>
+        <item>Alimentacion</item>
+        <item>Alojamiento</item>
+        <item>Combustible</item>
+        <item>Estacionamiento</item>
+        <item>Peaje</item>
+        <item>Transporte</item>
+        <item>Otros</item>
+    </string-array>
+
+</resources>
